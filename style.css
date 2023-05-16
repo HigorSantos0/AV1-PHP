@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+
+body{
+    background: linear-gradient(120deg, #ffffff, #00b3fa);
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254, 254, 254, 0.5);
+}
