@@ -8,7 +8,7 @@
     <h1>Jogos</h1>
 
     <h2>Criando Perguntas e Respostas</h2>
-    <form action="processar.php" method="post">
+    <form action="validar.php" method="post">
         <input type="hidden" name="acao" value="criar">
         <label for="pergunta">Pergunta:</label>
         <input type="text" name="pergunta" id="pergunta" required><br><br>
@@ -23,7 +23,7 @@
     </form>
 
     <h2>Alterando Perguntas e Respostas</h2>
-    <form action="processar.php" method="post">
+    <form action="validar.php" method="post">
         <input type="hidden" name="acao" value="alterar">
         <label for="id_pergunta">ID da Pergunta:</label>
         <input type="number" name="id_pergunta" id="id_pergunta" required><br><br>
@@ -35,13 +35,13 @@
     </form>
 
     <h2>Listando Perguntas e Respostas</h2>
-    <form action="processar.php" method="post">
+    <form action="validar.php" method="post">
         <input type="hidden" name="acao" value="listar">
         <input type="submit" value="Listar">
     </form>
 
     <h2>Listar uma Pergunta</h2>
-    <form action="processar.php" method="post">
+    <form action="validar.php" method="post">
         <input type="hidden" name="acao" value="listar_uma">
         <label for="id_pergunta_listar">ID da Pergunta:</label>
         <input type="number" name="id_pergunta_listar" id="id_pergunta_listar" required><br><br>
