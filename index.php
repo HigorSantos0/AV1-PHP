@@ -47,6 +47,14 @@
         <input type="number" name="id_pergunta_listar" id="id_pergunta_listar" required><br><br>
         <input type="submit" value="Listar Pergunta">
     </form>
+    
+    <h2>Excluir Pergunta</h2>
+    <form action="validar.php" method="post">
+        <input type="hidden" name="acao" value="excluir">
+        <label for="id_pergunta_excluir">ID da Pergunta:</label>
+        <input type="number" name="id_pergunta_excluir" id="id_pergunta_excluir" required><br><br>
+        <input type="submit" value="Excluir Pergunta">
+    </form>
 
     
 </body>
